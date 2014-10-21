@@ -18,7 +18,7 @@ public class PrintNum {
         int StartNumber ;
         int FinishNumber= 100;
         
-       //for loop for loop the number
+       //for loop to loop  the number
        for( StartNumber =1; StartNumber <=FinishNumber; StartNumber++){
          //Condition if the number are divisible by 3 then print "AnonymousLlama"
         if(StartNumber%5==0 && StartNumber%3==0){
