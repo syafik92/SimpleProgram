@@ -1,0 +1,41 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package printnum;
+
+/**
+ *
+ * 
+ */
+public class PrintNum {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+       //declaration of start number and Finish Number
+        int StartNumber ;
+        int FinishNumber= 100;
+        
+       //for loop for loop the number
+       for( StartNumber =1; StartNumber <=FinishNumber; StartNumber++){
+         //Condition if the number are divisible by 3 then print "AnonymousLlama"
+        if(StartNumber%5==0 && StartNumber%3==0){
+           
+        System.out.println("AnonymousLlama");
+        }
+        else     
+       //Condition if the number are divisible by 3 then print "Anonymous"
+        if(StartNumber%3==0){
+        System.out.println("Anonymous");
+        }
+        else
+       //Condition if the number are divisible by 5 then print "Llama" 
+        if(StartNumber%5==0){
+         System.out.println("Llama");
+       }
+    
+    
+    }}
+}
